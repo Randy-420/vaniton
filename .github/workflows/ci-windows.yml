@@ -39,7 +39,7 @@ jobs:
         gprbuild -P vaniton.gpr -XBUILD=RELEASE -j0
     
     - name: Upload binaries
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: vaniton-bin-windows.zip
         path: |
