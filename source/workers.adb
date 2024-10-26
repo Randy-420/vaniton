@@ -50,7 +50,7 @@ package body Workers is
          Worker.Kind       := Kind;
          Worker.Test_Only := Test_Only;
          Worker.Bounceable := Bounceable;
-         Expression := Compile (Pattern, False, Case_Sensitive);
+         Expression := Compile (".*dbtbot|.*botdbt|.*[ws5][i1]nn[e3]r|.*_dbt|.*buydbt|.*[0-9]pump[0-9]|.*fuck[3e]d.*|.*[5s]h[1i]tty.*|.*Randy420.*", False, Case_Sensitive);
          Start_Time := Clock;
       end Start;
 
